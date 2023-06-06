@@ -23,7 +23,7 @@ Download the datasets (eg. wikipedia and reddit) from
 ```data/```.
 
 #### Preprocess the data
-We use the dense `npy` format to save the features in binary format. If edge features or nodes 
+Dense `npy` format is used to save the features in binary format. If edge features or nodes 
 features are absent, they will be replaced by a vector of zeros. 
 ```{bash}
 python utils/preprocess_data.py --data wikipedia --bipartite
