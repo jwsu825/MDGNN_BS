@@ -1,5 +1,5 @@
 # MDGNN_BS
-This github contains the implementation of the method proposed in MDGNN_BS paper.
+This github contains the implementation of the method proposed in MDGNN_BS paper. Part of the implementation is adopted from [TGN](https://github.com/twitter-research/tgn).
 
 
 
@@ -32,7 +32,7 @@ python utils/preprocess_data.py --data reddit --bipartite
 
 
 
-### Model Training with or without PRES
+### Model Training with or without PRES (more details to be added later)
 
 Self-supervised learning using the link prediction task:
 ```{bash}
